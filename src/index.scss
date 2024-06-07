@@ -39,11 +39,11 @@ footer {
         gap: 69px;
 
         hr {
-            width: 0;
+            width: 6px;
             height: 196px;
-            border-radius: 100%;
-            border: 6px solid;
-            //border-image-source: linear-gradient(179.87deg, #343045 0.47%, #343045 0.47%, #C0B7E8 35.21%, #8176AF 68.91%, #343045 99.5%);
+            border: 1px solid transparent;
+            background: linear-gradient(179.87deg, #343045 0.47%, #C0B7E8 35.21%, #8176AF 68.91%, #343045 99.5%);
+            border-radius: 50%;
         }
 
         h6 {

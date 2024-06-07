@@ -38,10 +38,11 @@ footer article {
   gap: 69px;
 }
 footer article hr {
-  width: 0;
+  width: 6px;
   height: 196px;
-  border-radius: 100%;
-  border: 6px solid;
+  border: 1px solid transparent;
+  background: linear-gradient(179.87deg, #343045 0.47%, #C0B7E8 35.21%, #8176AF 68.91%, #343045 99.5%);
+  border-radius: 50%;
 }
 footer article h6 {
   font-size: 16px;

@@ -1,5 +1,6 @@
 import About from "../src/page/About";
 import Footer from "./page/Footer";
+import Forma from "./page/Forma";
 import Reason from "./page/Reason";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     }}>
       <About />
       <Reason />
+      <Forma />
       <Footer />
     </div>
   )
