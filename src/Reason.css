@@ -1,0 +1,60 @@
+.cardReason {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+.cardReason .cardPro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 23px 45px 40px;
+  align-items: center;
+  border-radius: 40px;
+  background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+  height: auto;
+  width: auto;
+  gap: 17px;
+}
+.cardReason .cardPro div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background: rgba(14, 14, 14, 0.3215686275);
+  width: 219px;
+  height: 219px;
+}
+.cardReason .cardPro div img {
+  width: 190px;
+  height: 190px;
+  border-radius: 100%;
+  background-color: #0E0E0E;
+}
+.cardReason .cardPro h2 {
+  margin-top: 4.5px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.cardReason .cardPro hr {
+  width: 154px;
+  border: 1px 0px 0px 0px;
+  border: 1px solid rgba(192, 183, 232, 0.3294117647);
+}
+.cardReason .cardPro p {
+  margin-top: 4.5px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  text-align: left;
+  color: #FFFFFF;
+  width: 250px;
+}
+.cardReason .cardPro button {
+  margin-top: 18px;
+  width: 154px;
+  height: 48px;
+  background-size: cover;
+}/*# sourceMappingURL=Reason.css.map */

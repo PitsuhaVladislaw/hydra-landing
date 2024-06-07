@@ -1,5 +1,6 @@
 import About from "../src/page/About";
 import Footer from "./page/Footer";
+import Reason from "./page/Reason";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       gap: "112px"
     }}>
       <About />
+      <Reason />
       <Footer />
     </div>
   )
