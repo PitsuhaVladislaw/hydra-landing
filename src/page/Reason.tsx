@@ -1,6 +1,6 @@
 import "../About.css"
 import "../Reason.css"
-import Arrow from "../assets/img/arrow.png"
+import Modal from '../components/modal';
 import Card1 from "../assets/img/card1.jpg"
 import Card2 from "../assets/img/card2.jpg"
 import Card3 from "../assets/img/card3.jpg"
@@ -41,21 +41,14 @@ libero justo laoreet sit amet vitae.`
 export default function Reason() {
     return(
         <section className="reason about">
-            <article className="introduction">
-                <div className="int-blk_1">
-                    <h2>WHY BUILD</h2>
-                    <div>
-                        <h4>WITH HYDRA?</h4>
-                        <img src={Arrow} alt="arrow" />
-                    </div>
-                </div>
-                <p>
-                    Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
+            <Modal 
+                name="HOW WE BUILD"
+                dername="WITH HYDRA VR?"
+                text="Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
 nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
 quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
-lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
-                </p>
-            </article>
+lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae."
+            />
             <article className="cardReason">
                 {cardIngo.map(card =>
                     <CardReason 

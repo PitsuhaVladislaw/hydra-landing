@@ -1,6 +1,7 @@
 import About from "../src/page/About";
 import Footer from "./page/Footer";
 import Forma from "./page/Forma";
+import Numbers from "./page/Numbers";
 import Reason from "./page/Reason";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     }}>
       <About />
       <Reason />
+      <Numbers />
       <Forma />
       <Footer />
     </div>

@@ -1,26 +1,19 @@
 import VR from "../assets/img/VR.jpg";
-import Arrow from "../assets/img/arrow.png";
 import "../About.css";
 import Button from "../components/button";
+import Modal from '../components/modal';
 
 export default function About() {
     return(
         <section className="about">
-            <article className="introduction">
-                <div className="int-blk_1">
-                    <h2>INTRODUCTION</h2>
-                    <div>
-                        <h4>TO HYDRA VR</h4>
-                        <img src={Arrow} alt="arrow" />
-                    </div>
-                </div>
-                <p>
-                    Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
+            <Modal 
+                name="INTRODUCTION"
+                dername="TO HYDRA VR"
+                text="Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
 nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
 quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
-lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
-                </p>
-            </article>
+lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae."
+            />
             <article className="art-about">
                 <img src={VR} alt="VR glass" />
                 <div className="int-blk_2">
