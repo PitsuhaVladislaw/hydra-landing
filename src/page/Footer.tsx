@@ -1,11 +1,7 @@
 import Icon from "../assets/img/icon.png";
 import Button from "../components/button";
-import { RiTwitterFill } from "react-icons/ri";
-import { FaFacebook } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaPinterest } from "react-icons/fa";
+import { FaFacebook, FaLinkedinIn, FaYoutube, FaInstagram, FaPinterest } from 'react-icons/fa';
+import { RiTwitterFill } from 'react-icons/ri';
 
 export const textBox1: string[] = [
     "ABOUT", "SERVICES", "TECHNOLOGIES", "HOW TO JOIN HYDRA"
@@ -17,46 +13,34 @@ export const textBox2: string[] = [
 
 export const listSocLink = [
     {
-        icon: `<${FaFacebook} />`,
+        icon: <FaFacebook />,
         link: "https://www.facebook.com/"
     },
     {
-        icon: `<${RiTwitterFill} />`,
+        icon: <RiTwitterFill />,
         link: "https://twitter.com/"
     },
     {
-        icon: `<${FaLinkedinIn} />`,
+        icon: <FaLinkedinIn />,
         link: "https://www.linkedin.com/"
     },
     {
-        icon: `<${FaYoutube} />`,
+        icon: <FaYoutube />,
         link: "https://www.youtube.com/"
     },
     {
-        icon: `<${FaInstagram} />`,
+        icon: <FaInstagram />,
         link: "https://www.instagram.com/"
     },
     {
-        icon: `<${FaPinterest} />`,
+        icon: <FaPinterest />,
         link: "https://pinterest.com/"
     }
 ];
 
-export function TabSocLinks() {
-    const handleClick = (link: any): any => {
-        window.location.href = link;
-    };
-
-    return (
-        <div className="lineLinks">
-            {listSocLink.map(elem =>
-                <div onClick={() => handleClick(elem.link)}>
-                    
-                </div>
-            )}
-        </div>
-    );
-}
+export const handleClick = (link: string): void => {
+    window.location.href = link;
+};
 
 export default function Footer() {
     const styles: React.CSSProperties = {
@@ -84,10 +68,23 @@ export default function Footer() {
                 <hr /> 
                 <article className="tabSocLinks"> 
                     <h6>SOCIALIZE WITH HYDRA</h6> 
+                    <div className="lineLinks">
+                        {listSocLink.map(elem => (
+                            <div onClick={() => handleClick(elem.link)}>
+                                {elem.icon}
+                            </div>
+                        ))}
+                    </div>
                     <Button params="BUILD YOUR WORLD" /> 
                 </article> 
             </article> 
-            <div></div> 
+            <hr style={{
+                height: "1px",
+                width: "1269px",
+                border: "1px solid transparent",
+                borderRadius: "100%",
+                background: "linear-gradient(179.87deg, #343045 0.47%, #C0B7E8 35.21%, #8176AF 68.91%, #343045 99.5%)"
+            }} />
             <h5>2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED</h5> 
         </footer> 
     ) ;

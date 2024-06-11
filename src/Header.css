@@ -1,0 +1,111 @@
+header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 251px;
+  gap: 88px;
+}
+header .mainBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .mainBlock .mainBlock-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 36px;
+}
+header .mainBlock .mainBlock-text h1 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 56.07px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+header .mainBlock .mainBlock-text h1 span {
+  color: rgb(129, 118, 175);
+}
+header .mainBlock .mainBlock-text p {
+  width: 450px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+header .mainBlock .mainBlock-text div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40.07px;
+}
+header .mainBlock .mainBlock-text div button {
+  width: 214px;
+  height: 48px;
+}
+header .mainBlock .mainBlock-text div svg {
+  width: 41.67px;
+  height: 33.33px;
+  border: 3px 0px 0px 0px;
+  color: rgb(192, 183, 232);
+}
+header .mainBlock .mainBlock-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px 100px 100px 240px;
+  background: rgba(0, 0, 0, 0.13);
+  height: 455px;
+  width: 524px;
+}
+header .mainBlock .mainBlock-img img {
+  border-radius: 100px 100px 100px 240px;
+  height: 426px;
+  width: 490px;
+}
+header .contBlock {
+  display: flex;
+  justify-content: center;
+  border-radius: 90px;
+  background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+  align-items: center;
+  padding: 26px 80px 26px 39px;
+  height: auto;
+}
+header .contBlock hr {
+  height: 116.5px;
+  border: 1px solid rgba(192, 183, 232, 0.33);
+}
+header .contBlock article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+header .contBlock article svg {
+  width: 40px;
+  height: 61.25px;
+  color: rgb(192, 183, 232);
+}
+header .contBlock article div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+header .contBlock article div h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+header .contBlock article div h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}

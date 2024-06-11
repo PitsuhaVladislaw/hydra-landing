@@ -4,7 +4,9 @@ import '../Forma.css'
 export default function Forma() {
     return(
         <section className='forma'>
-            <header>
+            <header style={{
+                marginTop: "0"
+            }}>
                 <h1>JOIN HYDRA</h1>
                 <hr />
                 <h3>Let’s Build Your VR Experience</h3>
