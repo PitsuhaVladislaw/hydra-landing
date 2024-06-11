@@ -3,108 +3,114 @@
   flex-direction: column;
   width: auto;
   height: auto;
-  gap: 97px;
+  gap: 97px
 }
+
 .about .introduction {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 111px;
+  gap: 111px
 }
+
 .about .introduction .int-blk_1 {
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  width: 400px;
+  width: 400px
 }
+
+.about .art-about .int-blk_2 div h3,
 .about .introduction .int-blk_1 h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 43.88px;
   text-align: left;
-  color: #FFFFFF;
+  color: #fff
 }
-.about .introduction .int-blk_1 div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-.about .introduction .int-blk_1 div h4 {
-  font-size: 36px;
-  font-weight: 300;
-  line-height: 43.88px;
-  text-align: left;
-  color: #FFFFFF;
-  margin: 0;
-}
-.about .introduction .int-blk_1 div img {
-  position: absolute;
-  color: #FFFFFF;
-  height: auto;
-  width: auto;
-  left: 330px;
-  top: 16px;
-}
+
+.about .art-about .int-blk_2 p,
 .about .introduction p {
   font-size: 16px;
   font-weight: 400;
   line-height: 19.5px;
   text-align: left;
-  color: #FFFFFF;
-  height: auto;
-  width: 652px;
+  color: #fff
 }
+
+.about .introduction .int-blk_1 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px
+}
+
+.about .introduction .int-blk_1 div h4 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 43.88px;
+  text-align: left;
+  color: #fff;
+  margin: 0
+}
+
+.about .introduction .int-blk_1 div img {
+  position: absolute;
+  color: #fff;
+  height: auto;
+  width: auto;
+  left: 330px;
+  top: 16px
+}
+
+.about .introduction p {
+  height: auto;
+  width: 652px
+}
+
 .about .art-about {
   display: flex;
   justify-content: space-between;
-  gap: 118px;
+  gap: 118px
 }
+
 .about .art-about img {
   width: 524px;
   height: 557px;
-  border-radius: 240px 100px 240px 100px;
+  border-radius: 240px 100px;
   opacity: 0px;
-  background: #A3A3A3;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  background: #a3a3a3;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2509803922)
 }
+
 .about .art-about .int-blk_2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 28px;
+  gap: 28px
 }
+
 .about .art-about .int-blk_2 div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 14px;
-  gap: 5px;
+  gap: 5px
 }
-.about .art-about .int-blk_2 div h3 {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 43.88px;
-  text-align: left;
-  color: #FFFFFF;
-}
+
 .about .art-about .int-blk_2 div h4 {
   font-size: 36px;
   font-weight: 300;
   line-height: 43.88px;
   text-align: left;
-  color: rgba(255, 255, 255, 0.9490196078);
+  color: rgba(255, 255, 255, .9490196078)
 }
+
 .about .art-about .int-blk_2 p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.5px;
-  text-align: left;
-  color: #FFFFFF;
-  width: 630px;
+  width: 630px
 }

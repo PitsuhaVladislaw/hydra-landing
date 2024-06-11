@@ -1,25 +1,42 @@
-@font-face {
-  font-family: "Montserrat";
-  src: url(./assets/font/Montserrat/Montserrat-VariableFont_wght.ttf);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Montserrat
 }
+
+button h5,
+footer article h6 {
+  font-weight: 700;
+  text-align: left
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/font/Montserrat/Montserrat-VariableFont_wght.ttf)
+}
+
 body {
   gap: 112px;
   margin: 0;
   display: flex;
   place-items: center;
   justify-content: center;
-  background-color: #302C42;
+  background-color: #302c42;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat";
-  margin: 0;
-}
-
-p {
-  font-family: "Montserrat";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0
 }
 
 footer {
@@ -28,59 +45,65 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 43px;
+  gap: 43px
 }
+
 footer article {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 69px;
+  gap: 69px
 }
+
 footer article hr {
   width: 6px;
   height: 196px;
   border: 1px solid transparent;
-  background: linear-gradient(179.87deg, #343045 0.47%, #C0B7E8 35.21%, #8176AF 68.91%, #343045 99.5%);
-  border-radius: 50%;
+  background: linear-gradient(179.87deg, #343045 .47%, #c0b7e8 35.21%, #8176af 68.91%, #343045 99.5%);
+  border-radius: 50%
 }
+
 footer article h6 {
   font-size: 16px;
-  font-weight: 700;
-  text-align: left;
-  color: #FFFFFF;
-  margin: 0;
+  color: #fff;
+  margin: 0
 }
+
 footer article .tabSocLinks {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 39px;
+  gap: 39px
 }
+
 footer article .tabSocLinks .lineLinks {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 20px
 }
+
 footer article .tabSocLinks .lineLinks div {
   display: flex;
   justify-content: center;
-  background-color: #C0B7E8;
+  background-color: #c0b7e8;
   align-items: center;
   border-radius: 100%;
   height: 32px;
-  width: 32px;
+  width: 32px
 }
+
 footer article .tabSocLinks button {
-  margin-top: 10px;
+  margin-top: 10px
 }
+
 footer h5 {
   font-size: 14px;
   font-weight: 700;
   line-height: 17.07px;
-  letter-spacing: 0.13em;
-  color: #FFFFFF;
-  margin: 0;
+  letter-spacing: .13em;
+  color: #fff;
+  margin: 0
 }
 
 button {
@@ -92,12 +115,11 @@ button {
   opacity: 0px;
   width: 214px;
   height: 48px;
-  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  background: linear-gradient(90deg, #8176af 0, #c0b7e8 100%)
 }
+
 button h5 {
   font-size: 12px;
-  font-weight: 700;
   line-height: 14.63px;
-  text-align: left;
-  color: #343045;
+  color: #343045
 }

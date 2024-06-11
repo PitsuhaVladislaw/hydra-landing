@@ -2,64 +2,71 @@
   display: flex;
   height: auto;
   width: auto;
-  gap: 119px;
+  gap: 119px
 }
+
 .numbers .circlesNum {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 106px;
+  gap: 106px
 }
+
 .numbers .circlesNum .blockNum {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 25px;
+  gap: 25px
 }
+
 .numbers .circlesNum .blockNum .blockNum-cir {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(13, 13, 13, 0.32);
+  background: rgba(13, 13, 13, .32);
   border-radius: 100%;
   height: 198px;
-  width: 198px;
+  width: 198px
 }
+
 .numbers .circlesNum .blockNum .blockNum-cir div {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+  background: linear-gradient(251.27deg, #c0b7e8 12.87%, #8176af 89.33%);
   height: 159px;
-  width: 159px;
+  width: 159px
 }
+
 .numbers .circlesNum .blockNum .blockNum-cir div h3 {
   font-size: 64px;
   font-weight: 700;
   line-height: 78.02px;
   text-align: left;
-  background: rgb(52, 48, 69);
-  background-color: transparent;
+  background: 0 0
 }
+
 .numbers .circlesNum .blockNum .blockNum-link {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 18px;
+  gap: 18px
 }
+
 .numbers .circlesNum .blockNum .blockNum-link svg {
   width: 32px;
   height: 32px;
-  color: rgb(192, 183, 232);
+  color: #c0b7e8
 }
+
 .numbers .circlesNum .blockNum .blockNum-link h4 {
   font-size: 24px;
   font-weight: 700;
   line-height: 29.26px;
   text-align: left;
-  color: rgb(255, 255, 255);
-  width: 187px;
-}/*# sourceMappingURL=Numbers.css.map */
+  color: #fff;
+  width: 187px
+}

@@ -1,49 +1,58 @@
-.navBar {
-  display: flex;
+.navBar,
+.navBar .routesBlock {
   justify-content: space-between;
+  display: flex
+}
+
+.navBar {
   position: fixed;
   align-items: center;
-  background-color: #302C42;
+  background-color: #302c42;
   z-index: 1000;
   height: auto;
   width: 100%;
   left: 0;
-  top: 0;
+  top: 0
 }
+
 .navBar .iconBlock {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 15px
 }
+
 .navBar .iconBlock img {
   width: auto;
-  height: auto;
+  height: auto
 }
+
 .navBar .routesBlock {
-  display: flex;
-  justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  gap: 41px;
+  gap: 41px
 }
+
 .navBar .routesBlock a {
-  text-decoration: none;
+  text-decoration: none
 }
+
 .navBar .routesBlock a h2 {
   font-size: 12px;
   font-weight: 700;
   line-height: 14.63px;
   text-align: left;
-  color: rgb(255, 255, 255);
+  color: #fff
 }
+
 .navBar .controller {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 38px;
+  gap: 38px
 }
+
 .navBar .controller button {
   width: 155px;
-  height: 48px;
+  height: 48px
 }
